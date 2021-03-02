@@ -121,14 +121,12 @@ header{
 /*Req 7a*/
 .about, .method, .client, .contacts{
   /*Your Code Here*/
-  display: grid;
   grid-column: 2 / span 2;
 }
 
 /*Req 8a, 8b, and 8c*/
 .about-image, .method-image, .client-image, .contact-image{
   /*Your Code Here*/
-  display: grid;
   grid-column: 1 / -1;
   max-height: 650px;
   overflow: hidden;
@@ -137,28 +135,24 @@ header{
 /*Req 7b & 8d*/
 .about, .about-image{
    /*Your Code Here*/
-  display: grid;
   grid-row: 1 / span 1;
 }
 
 /*Req 7b & 8d*/
 .method, .method-image{
    /*Your Code Here*/
-   display: grid;
    grid-row: 2 / span 1;
 }
 
 /*Req 7b & 8d*/
 .client, .client-image{
     /*Your Code Here*/
-    display: grid;
     grid-row: 3 / span 1;
 }
 
 /*Req 7b & 8d*/
 .contacts, .contact-image{
     /*Your Code Here*/
-    display: grid;
     grid-row: 4 / span 1;
 }
 
@@ -168,7 +162,7 @@ header{
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
-  text-align: center;
+  align-self: center;
 }
 
 
